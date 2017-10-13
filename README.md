@@ -2,7 +2,10 @@
 > Delete from object on if condition.
 
 
-## resources:
+## usage:
+```js
+  var obj1 = { name: 'fei',age:122 };
+  nx.deleteIf( obj1, ['name'], true );
 
-## todos:
-- [ ] unit test case
+  //{ age: 122 }
+```
