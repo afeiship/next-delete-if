@@ -21,4 +21,11 @@ describe('api.basic test', () => {
     });
     expect(obj1.age).toBe(undefined);
   });
+
+  test('api: return result && the same obj', () => {
+    var obj = { row: 1, col: 2, colspan: undefined, rowspan: undefined };
+    var res = nx.deleteIf(obj, ['colspan', 'rowspan'], (k, v) => !v);
+    expect(res).toBe(obj);
+    expect(res).toEqual({ row: 1, col: 2 });
+  });
 });

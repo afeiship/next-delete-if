@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-delete-if",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Delete from object on if condition.",
   "homepage": "https://github.com/afeiship/next-delete-if",
   "author": {

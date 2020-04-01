@@ -2,8 +2,8 @@
  * name: @feizheng/next-delete-if
  * description: Delete from object on if condition.
  * url: https://github.com/afeiship/next-delete-if
- * version: 1.0.2
- * date: 2020-04-01 14:14:31
+ * version: 1.0.3
+ * date: 2020-04-01 14:26:30
  * license: MIT
  */
 
@@ -18,6 +18,7 @@
         delete inObject[key];
       }
     }
+    return inObject;
   };
 
   if (typeof module !== 'undefined' && module.exports) {

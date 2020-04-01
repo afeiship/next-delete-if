@@ -9,6 +9,7 @@
         delete inObject[key];
       }
     }
+    return inObject;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
