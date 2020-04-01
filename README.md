@@ -1,11 +1,15 @@
 # next-delete-if
 > Delete from object on if condition.
 
+## installation
+```bash
+npm install -S @feizheng/next-delete-if
+```
 
-## usage:
+## usage
 ```js
-  var obj1 = { name: 'fei',age:122 };
-  nx.deleteIf( obj1, ['name'], true );
+import '@feizheng/next-delete-if';
 
-  //{ age: 122 }
+const obj = { name: 'fei', age: 122 };
+nx.deleteIf(obj, ['age'], (obj) => obj.age < 100); // delete failed
 ```
