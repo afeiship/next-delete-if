@@ -3,7 +3,7 @@
  * description: Delete from object on if condition.
  * homepage: https://github.com/afeiship/next-delete-if
  * version: 1.0.0
- * date: 2020-11-22 13:45:16
+ * date: 2020-11-22 13:46:10
  * license: MIT
  */
 
