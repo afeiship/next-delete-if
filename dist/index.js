@@ -1,6 +1,15 @@
+/*!
+ * name: @jswork/next-delete-if
+ * description: Delete from object on if condition.
+ * homepage: https://github.com/afeiship/next-delete-if
+ * version: 1.0.0
+ * date: 2020-11-22 13:45:16
+ * license: MIT
+ */
+
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.deleteIf = function (inObject, inArray, inCallback) {
     for (var index = 0; index < inArray.length; index++) {
